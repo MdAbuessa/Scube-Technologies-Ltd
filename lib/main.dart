@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:scube_app/assets_helper/app_colors.dart';
-import 'package:scube_app/assets_helper/app_icons.dart';
 import 'package:scube_app/assets_helper/app_images.dart';
-import 'package:scube_app/feature/widgets/custom_text_field.dart';
 import 'package:scube_app/helpers/all_routes.dart';
 import 'package:scube_app/helpers/navigation_service.dart';
 
@@ -12,9 +9,6 @@ void main() {
   runApp(const MyApp());
 }
 
-/// =====================
-/// APP ROOT
-/// =====================
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -38,9 +32,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-/// =====================
-/// LOGIN SCREEN
-/// =====================
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
@@ -187,9 +178,6 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 }
 
-/// =====================
-/// CUSTOM BUTTON
-/// =====================
 class CustomButton extends StatelessWidget {
   final String btnText;
   final VoidCallback? onCall;
